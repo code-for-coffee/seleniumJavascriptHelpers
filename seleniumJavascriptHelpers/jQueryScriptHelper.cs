@@ -70,11 +70,11 @@ namespace seleniumJavascriptHelpers
         src += "console.log('jQuery Injection: getElementDataAttribute [completed]')";
         return src;
     }
-    private string setElementDataAttribute(string Selector, string Value)
+    private string setElementValue(string Selector, string Value)
     {
-        string src = "console.log('jQuery Injection: setElementDataAttribute [started]')";
+        string src = "console.log('jQuery Injection: setElementValue [started]')";
         src += "$('" + Selector + "').val(" + Value + ")";
-        src += "console.log('jQuery Injection: setElementDataAttribute [completed]')";
+        src += "console.log('jQuery Injection: setElementValue [completed]')";
         return src;
     }
     private string setElementDataAttribute(string Selector, string DataAttribute, string Value)
